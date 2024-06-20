@@ -11,14 +11,14 @@ ssl._create_default_https_context = ssl._create_unverified_context
 ngrok.set_auth_token(os.getenv('SECRET_KEY_NGROK'))
 
 # Variables que controlan la visibilidad y la información de los nombres
-show_info = False
-c_name = "FIELD C_NAME"
-p_names = ["FIELD P_NAME_1", "FIELD P_NAME_2"]
-pr_names = "FIELD PR_NAME_1"
+show_info = True
+c_name = "Procesamiento Digital de Señales"
+p_names = ["Marin Flores, Deborah Belén", "Martitegui Quiroz, Juan Diego"]
+pr_names = "Dr. ing. RAFAEL BUSTAMENTE ALVAREZ"
 # Encabezados controlados por Python
-c_header = "FIELD C_HEADER"
-p_by_header = "FIELD P_BY_HEADER"
-p_header = "FIELD P_HEADER"
+c_header = "Curso"
+p_by_header = "Presentado por"
+p_header = "Profesor"
 
 app = Flask(__name__)
 
