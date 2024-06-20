@@ -21,6 +21,6 @@ Paso 2: Ejecutar app.py
 static/sound/audio.mp3: Se encuentra el audio principal de la aplicación
 
 # Modificación
-En variables de entorno modificar el SECRET_KEY_NGROK
+En variables de entorno agregar el SECRET_KEY_NGROK
 
 Para habilitar textos en pantalla principal modificar en app.py show_info a True
